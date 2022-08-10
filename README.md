@@ -217,7 +217,6 @@ export default {
 ```js
 
 
-CloudFlare Pages一周轮换反代代码
 export default {
     async fetch(request, env) {
       const Day0 = 'app0.example.com'
