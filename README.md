@@ -169,7 +169,6 @@ export default {
 
 ```js
 
-CloudFlare Pages每五天轮换一遍式反代代码
 export default {
     async fetch(request, env) {
       const Day0 = 'app0.example.com'
