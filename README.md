@@ -137,10 +137,7 @@ addEventListener(
 
 <summary>CloudFlare Pages单双日轮换反代代码</summary>
 
-
-
 ```js
-
 
 export default {
     async fetch(request, env) {
@@ -167,6 +164,10 @@ export default {
 ```
 
 </details>
+
+<summary>CloudFlare Pages每五天轮换一遍式反代代码</summary>
+
+```js
 
 CloudFlare Pages每五天轮换一遍式反代代码
 export default {
@@ -204,6 +205,13 @@ export default {
     }
   };
 
+```
+
+</details>
+
+<summary>CloudFlare Pages一周轮换反代代码</summary>
+
+```js
 
 
 CloudFlare Pages一周轮换反代代码
@@ -247,6 +255,10 @@ export default {
       return env.ASSETS.fetch(request);
     }
   };
+```
+
+</details>
+
 
 参考项目
 [heshan2/heroku-xray-server](https://github.com/heshan2/heroku-xray-server)
